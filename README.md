@@ -12,11 +12,11 @@ This project implements a custom `merge` function in TypeScript to combine three
 3. Install the required dependencies (TypeScript and Jest) by running:
    ```bash
    npm install
+   ```
 
-
-# Execution & Testing
+## Execution & Testing
 This project uses Jest for unit testing. To execute the tests and verify the logic, run the following command:
-
-   ```Bash
-    npm test
-    The test suite covers normal cases, different array lengths, empty arrays, duplicate numbers, and negative/zero values.
+   ```bash
+   npm test
+   ```
+The test suite covers normal cases, different array lengths, empty arrays, duplicate numbers, and negative/zero values.
