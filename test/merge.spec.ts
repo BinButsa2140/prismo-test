@@ -2,7 +2,7 @@ import { describe, it, expect } from '@jest/globals';
 import merge from '../merge';
 
 describe("Merge Function", () => {
-  it("Happy Path", () => {
+  it("Happy Path ควรทำงานได้ถุกต้องตามปกติ ในกรณีปกติ", () => {
     let c1 = [1, 2, 3, 4, 5];
     let c2 = [10, 9, 8, 7, 6];
     let c3 = [11, 12, 13, 14, 15];
